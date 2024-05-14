@@ -1,0 +1,78 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #25A670;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo {
+            width: 115px; /* ปรับขนาดโลโก้ตามที่ต้องการ */
+            height: 115px;
+            margin-right: 10px; /* ปรับระยะห่างระหว่างโลโก้กับชื่อบริษัท */
+        }
+        .company-name {
+            font-size: 20px; /* ปรับขนาดตัวหนังสือชื่อบริษัทตามต้องการ */
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .footer-address {
+            flex-grow: 1;
+            text-align: center;
+        }
+        .footer-top {
+            background-color: #FBFBFB;
+            padding: 1px;
+            text-align: center;
+        }
+        .footer-bottom {
+            background-color: #00D896;
+            color: white;
+            padding: 0.05px;
+            text-align: center;
+        }
+        .content-border {
+            border: 2px solid black; /* สีขอบดำของกรอบสี่เหลี่ยม */
+            padding: 20px; /* ระยะห่างขอบกรอบจากเนื้อหา */
+            text-align: center;
+            width: 700px; /* กำหนดความกว้างของกรอบเหลี่ยม */
+            height: 450px; /* กำหนดความสูงของกรอบเหลี่ยม */
+            margin: 0 auto; /* กำหนดให้กรอบเหลี่ยมอยู่ตรงกลาง */
+        }
+        .input-container{
+	        position:relative;
+	        margin-bottom:25px;
+        }
+        .form__input {
+        color: #333;
+        font-size: 18px;
+        padding: 0.5rem 0.5rem;
+        background-color: rgb(255, 255, 255);
+        border: black;
+        width: 250px;
+        display: block;
+        border: 1px solid rgb(150, 148, 148);
+        }
+        .btn{
+        color:#fff;
+        background-color:#00D896;
+        outline: none;
+        border: 0;
+        color: #fff;
+        padding:10px 20px;
+        text-transform:uppercase;
+        margin-top:50px;
+        border-radius:2px;
+        cursor:pointer;
+        position:relative;
+        }     
